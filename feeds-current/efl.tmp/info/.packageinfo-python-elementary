@@ -1,0 +1,20 @@
+Source-Makefile: feeds/efl/python-elementary/Makefile
+Package: python-elementary
+Submenu: Python
+Version: r40853-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +elementary +evas +eina +python-evas
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: cython python !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: lang
+Category: Languages
+Title: python-elementary
+Maintainer: 
+Source: python-elementary-r40853.tar.gz
+Type: ipkg
+Description:   elementary python bindings
+
+@@
+
+

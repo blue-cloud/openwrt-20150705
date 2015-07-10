@@ -1,0 +1,21 @@
+Source-Makefile: feeds/desktop/libs/gtkhtml/Makefile
+Package: gtkhtml
+Submenu: app
+Version: 3.29.1-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +gtk2 +libgconf2 +gnome-icon-theme
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: gtkhtml
+Maintainer: 
+Source: gtkhtml-3.29.1.tar.gz
+Type: ipkg
+Description: gtkhtml
+http://www.gnome.org/projects/gtkhtml/
+
+@@
+
+

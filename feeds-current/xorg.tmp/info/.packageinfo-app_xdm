@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/app/xdm/Makefile
+Package: xdm
+Submenu: app
+Version: 1.1.8-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXmu +libXau +libXaw
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-app
+Category: Xorg
+Title: xdm
+Maintainer: 
+Source: xdm-1.1.8.tar.bz2
+Type: ipkg
+Description: xdm
+http://xorg.freedesktop.org/
+
+@@
+
+

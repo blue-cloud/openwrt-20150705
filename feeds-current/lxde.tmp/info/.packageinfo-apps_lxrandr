@@ -1,0 +1,20 @@
+Source-Makefile: feeds/lxde/apps/lxrandr/Makefile
+Package: lxrandr
+Submenu: app
+Version: 0.1.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +gtk2 +xrandr +lxde-common
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: lxrandr
+Maintainer: 
+Source: lxrandr-0.1.1.tar.gz
+Type: ipkg
+Description: lxrandr
+
+@@
+
+

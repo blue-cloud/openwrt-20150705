@@ -1,0 +1,17 @@
+apps/gpxview
+apps/recordmydesktop
+apps/tangogps
+apps/tint2
+data/gnome-icon-theme
+data/hicolor-icon-theme
+data/tango-icon-theme
+libs/gtkhtml
+libs/libburn
+libs/libgamin
+libs/libglade
+libs/libisofs
+libs/libstartup-notification
+meta/freedesktop-compliant
+tools/icon-naming-utils
+wm/karmen
+wm/openbox

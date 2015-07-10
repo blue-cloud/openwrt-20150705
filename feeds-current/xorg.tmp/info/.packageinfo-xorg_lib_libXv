@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXv/Makefile
+Package: libXv
+Submenu: libraries
+Version: 1.0.5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: videoproto xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXv
+Maintainer: 
+Source: libXv-1.0.5.tar.bz2
+Type: ipkg
+Description: libXv
+http://xorg.freedesktop.org/
+
+@@
+
+

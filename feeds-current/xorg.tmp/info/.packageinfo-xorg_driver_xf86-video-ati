@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/driver/xf86-video-ati/Makefile
+Package: xf86-video-ati
+Submenu: driver
+Version: 6.12.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +xserver-xorg @TARGET_x86 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-driver
+Category: Xorg
+Title: xf86-video-ati
+Maintainer: 
+Source: xf86-video-ati-6.12.4.tar.bz2
+Type: ipkg
+Description: xf86-video-ati
+http://xorg.freedesktop.org/
+
+@@
+
+

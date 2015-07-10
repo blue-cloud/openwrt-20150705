@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/driver/xf86-video-fbdev/Makefile
+Package: xf86-video-fbdev
+Submenu: driver
+Version: 0.4.1-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +xserver-xorg +libpciaccess
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-driver
+Category: Xorg
+Title: xf86-video-fbdev
+Maintainer: 
+Source: xf86-video-fbdev-0.4.1.tar.bz2
+Type: ipkg
+Description: xf86-video-fbdev
+http://xorg.freedesktop.org/
+
+@@
+
+

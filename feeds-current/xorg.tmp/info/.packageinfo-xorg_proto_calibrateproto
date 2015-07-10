@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/proto/calibrateproto/Makefile
+Package: calibrateproto
+Submenu: proto
+Version: git-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-proto
+Category: Xorg
+Title: calibrateproto
+Maintainer: 
+Source: 
+Type: ipkg
+Description: calibrateproto
+http://xorg.freedesktop.org/
+
+@@
+
+

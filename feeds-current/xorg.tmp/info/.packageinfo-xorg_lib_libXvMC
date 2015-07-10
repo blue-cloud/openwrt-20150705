@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXvMC/Makefile
+Package: libXvMC
+Submenu: libraries
+Version: 1.0.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libXext +libXv +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: videoproto xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXvMC
+Maintainer: 
+Source: libXvMC-1.0.5.tar.bz2
+Type: ipkg
+Description: libXvMC
+http://xorg.freedesktop.org/
+
+@@
+
+

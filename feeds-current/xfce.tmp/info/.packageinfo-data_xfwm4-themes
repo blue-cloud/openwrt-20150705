@@ -1,0 +1,19 @@
+Source-Makefile: feeds/xfce/data/xfwm4-themes/Makefile
+Package: xfwm4-themes
+Submenu: data
+Version: 4.6.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xfwm4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-data
+Category: Xorg
+Title: xfwm4-themes
+Maintainer: 
+Source: xfwm4-themes-4.6.0.tar.bz2
+Type: ipkg
+Description: xfwm4-themes
+
+@@
+
+

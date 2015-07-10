@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/driver/xf86-video-omap/Makefile
+Package: xf86-video-omapfb
+Submenu: driver
+Version: 20100810-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +xserver-xorg
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-driver
+Category: Xorg
+Title: xf86-video-omapfb
+Maintainer: 
+Source: xf86-video-omapfb-20100810.tar.bz2
+Type: ipkg
+Description: xf86-video-omapfb
+http://xorg.freedesktop.org/
+
+@@
+
+

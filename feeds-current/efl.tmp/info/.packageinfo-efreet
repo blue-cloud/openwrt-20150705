@@ -1,0 +1,21 @@
+Source-Makefile: feeds/efl/efreet/Makefile
+Package: efreet
+Submenu: libraries
+Version: r40853-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ecore
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-lib
+Category: Xorg
+Title: Enlightenment freedesktop.org library
+Maintainer: 
+Source: efreet-r40853.tar.gz
+Type: ipkg
+Description:   Efreet is an implementation of several specifications from freedesktop.org intended for use in Enlightenment DR17 (e17) and other applications using the Enlightenment Foundation Libraries (EFL).
+http://wiki.enlightenment.org/index.php/Efreet
+
+@@
+
+

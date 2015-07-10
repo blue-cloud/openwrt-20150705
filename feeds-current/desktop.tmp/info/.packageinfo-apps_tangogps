@@ -1,0 +1,21 @@
+Source-Makefile: feeds/desktop/apps/tangogps/Makefile
+Package: tangogps
+Submenu: app
+Version: 0.9.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgconf2 +gtk2 +libcurl +libexif +libsqlite3 @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-apps
+Category: Xorg
+Title: Mapping application
+Maintainer: 
+Source: tangogps-0.9.6.tar.gz
+Type: ipkg
+Description: Mapping application
+http://tangogps.org
+
+@@
+
+

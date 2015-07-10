@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/app/xinit/Makefile
+Package: xinit
+Submenu: app
+Version: 1.0.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-app
+Category: Xorg
+Title: xinit
+Maintainer: 
+Source: xinit-1.0.5.tar.bz2
+Type: ipkg
+Description: xinit
+http://xorg.freedesktop.org/
+
+@@
+
+

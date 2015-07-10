@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXcursor/Makefile
+Package: libXcursor
+Submenu: libraries
+Version: 1.1.10-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libXrender +libXfixes +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: fixesproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXcursor
+Maintainer: 
+Source: libXcursor-1.1.10.tar.bz2
+Type: ipkg
+Description: libXcursor
+http://xorg.freedesktop.org/
+
+@@
+
+

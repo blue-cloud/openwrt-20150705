@@ -1,0 +1,19 @@
+Source-Makefile: feeds/xwrt/webif-applications/Makefile
+Package: webif-applications
+Submenu: webif
+Version: 0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +webif
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: admin
+Category: Administration
+Title: XWrt applications plugin
+Maintainer: 
+Source: 
+Type: ipkg
+Description: XWrt applications plugin
+
+@@
+
+

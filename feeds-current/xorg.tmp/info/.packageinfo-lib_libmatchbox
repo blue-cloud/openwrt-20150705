@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lib/libmatchbox/Makefile
+Package: libmatchbox
+Submenu: libraries
+Version: 1.9-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXft +libpng +libjpeg +libXext +pango +check
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-libraries
+Category: Xorg
+Title: libmatchbox
+Maintainer: 
+Source: libmatchbox-1.9.tar.bz2
+Type: ipkg
+Description: libmatchbox
+http://matchbox-project.org
+
+@@
+
+

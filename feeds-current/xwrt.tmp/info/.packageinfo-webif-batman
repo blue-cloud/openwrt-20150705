@@ -1,0 +1,19 @@
+Source-Makefile: feeds/xwrt/webif-batman/Makefile
+Package: webif-batman
+Submenu: webif
+Version: 0.1-beta
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +webif +webif-mesh +batmand
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: admin
+Category: Administration
+Title: XWrt BATMAN mesh plugin
+Maintainer: 
+Source: 
+Type: ipkg
+Description: XWrt BATMAN mesh plugin
+
+@@
+
+

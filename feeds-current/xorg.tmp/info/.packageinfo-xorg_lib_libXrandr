@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXrandr/Makefile
+Package: libXrandr
+Submenu: libraries
+Version: 1.3.0-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libXext +libXrender +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: randrproto renderproto xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXrandr
+Maintainer: 
+Source: libXrandr-1.3.0.tar.bz2
+Type: ipkg
+Description: libXrandr
+http://xorg.freedesktop.org/
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/desktop/data/hicolor-icon-theme/Makefile
+Package: hicolor-icon-theme
+Submenu: data
+Version: 0.10-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-data
+Category: Xorg
+Title: freedesktop.org icon theme default layout
+Maintainer: 
+Source: hicolor-icon-theme-0.10.tar.gz
+Type: ipkg
+Description: freedesktop.org icon theme default layout
+http://icon-theme.freedesktop.org/wiki/HicolorTheme
+
+@@
+
+

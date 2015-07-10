@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libICE/Makefile
+Package: libICE
+Submenu: libraries
+Version: 1.0.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: xproto xtrans libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libICE
+Maintainer: 
+Source: libICE-1.0.6.tar.bz2
+Type: ipkg
+Description: libICE
+http://xorg.freedesktop.org/
+
+@@
+
+

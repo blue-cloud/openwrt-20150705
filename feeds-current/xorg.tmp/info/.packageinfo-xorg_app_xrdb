@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/app/xrdb/Makefile
+Package: xrdb
+Submenu: app
+Version: 1.0.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXmuu
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-app
+Category: Xorg
+Title: xrdb
+Maintainer: 
+Source: xrdb-1.0.5.tar.bz2
+Type: ipkg
+Description: xrdb
+http://xorg.freedesktop.org/
+
+@@
+
+

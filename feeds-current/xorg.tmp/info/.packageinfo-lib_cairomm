@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lib/cairomm/Makefile
+Package: cairomm
+Submenu: libraries
+Version: 1.8.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsigcxx +cairo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: Multi-platform 2D graphics library
+Maintainer: 
+Source: cairomm-1.8.4.tar.gz
+Type: ipkg
+Description: c++-bindings for cairo
+http://cairographics.org/cairomm/
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lang/pycairo/Makefile
+Package: pycairo
+Submenu: Python
+Version: 1.8.0-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +cairo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: lang
+Category: Languages
+Title: Cairo bindings to python
+Maintainer: 
+Source: pycairo-1.8.0.tar.gz
+Type: ipkg
+Description:   Cairo bindings for python
+http://www.cairographics.org/pycairo/
+
+@@
+
+

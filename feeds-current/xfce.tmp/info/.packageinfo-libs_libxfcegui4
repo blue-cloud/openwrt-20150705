@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xfce/libs/libxfcegui4/Makefile
+Package: libxfcegui4
+Submenu: framework
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfce4util +gtk2 +libglade +libxfconf +libSM +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-framework
+Category: Xorg
+Title: libxfcegui4
+Maintainer: 
+Source: libxfcegui4-4.6.1.tar.bz2
+Type: ipkg
+Description: libxfcegui4
+
+@@
+
+

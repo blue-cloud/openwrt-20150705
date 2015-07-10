@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libpciaccess/Makefile
+Package: libpciaccess
+Submenu: libraries
+Version: 0.10.9-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pciutils
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libpciaccess
+Maintainer: 
+Source: libpciaccess-0.10.9.tar.bz2
+Type: ipkg
+Description: libpciaccess
+http://xorg.freedesktop.org/
+
+@@
+
+

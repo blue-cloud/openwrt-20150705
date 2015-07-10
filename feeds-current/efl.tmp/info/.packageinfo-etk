@@ -1,0 +1,21 @@
+Source-Makefile: feeds/efl/etk/Makefile
+Package: etk
+Submenu: libraries
+Version: r40853-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +evas +ecore +edje +libintl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: edje/host libtool libintl libiconv
+Section: xorg-lib
+Category: Xorg
+Title: Etk is a toolkit based on the EFL
+Maintainer: 
+Source: etk-r40853.tar.gz
+Type: ipkg
+Description:   Etk is a toolkit based on the EFL
+http://wiki.enlightenment.org/index.php/Etk
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xfce/app/xfprint/Makefile
+Package: xfprint
+Submenu: app
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfce4util +libxfcegui4 +xfconf
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: xfprint
+Maintainer: 
+Source: xfprint-4.6.1.tar.bz2
+Type: ipkg
+Description: xfprint
+
+@@
+
+

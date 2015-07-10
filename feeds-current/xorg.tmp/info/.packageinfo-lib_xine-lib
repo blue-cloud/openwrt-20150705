@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lib/xine-lib/Makefile
+Package: xine-lib
+Submenu: libraries
+Version: 1.1.1-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXext +alsa-lib +zlib +libfreetype
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: xine libraries
+Maintainer: 
+Source: xine-lib-1.1.1.tar.gz
+Type: ipkg
+Description: xine libraries
+http://www.xine-project.org/
+
+@@
+
+

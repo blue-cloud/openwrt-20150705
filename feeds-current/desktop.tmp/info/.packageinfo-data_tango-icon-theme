@@ -1,0 +1,21 @@
+Source-Makefile: feeds/desktop/data/tango-icon-theme/Makefile
+Package: tango-icon-theme
+Submenu: data
+Version: 0.8.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hicolor-icon-theme
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: icon-naming-utils
+Section: xorg-data
+Category: Xorg
+Title: Tango icon theme
+Maintainer: 
+Source: tango-icon-theme-0.8.1.tar.gz
+Type: ipkg
+Description: Tango icon theme
+http://tango.freedesktop.org/
+
+@@
+
+

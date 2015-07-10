@@ -1,0 +1,40 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXmu/Makefile
+Package: libXmu
+Submenu: libraries
+Version: 1.0.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libXt +libXext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libXt libXext xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXmu
+Maintainer: 
+Source: libXmu-1.0.5.tar.bz2
+Type: ipkg
+Description: libXmu
+http://xorg.freedesktop.org/
+
+@@
+
+Package: libXmuu
+Submenu: libraries
+Version: 1.0.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libXt libXext xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXmuu
+Maintainer: 
+Source: libXmu-1.0.5.tar.bz2
+Type: ipkg
+Description: libXmuu
+http://xorg.freedesktop.org/
+
+@@
+
+

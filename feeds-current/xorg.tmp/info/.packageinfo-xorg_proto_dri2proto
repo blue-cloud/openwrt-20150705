@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/proto/dri2proto/Makefile
+Package: dri2proto
+Submenu: proto
+Version: 2.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-proto
+Category: Xorg
+Title: dri2proto
+Maintainer: 
+Source: dri2proto-2.1.tar.bz2
+Type: ipkg
+Description: dri2proto
+http://xorg.freedesktop.org/
+
+@@
+
+

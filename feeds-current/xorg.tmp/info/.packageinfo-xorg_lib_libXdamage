@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXdamage/Makefile
+Package: libXdamage
+Submenu: libraries
+Version: 1.1.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXfixes
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: xproto xextproto fixesproto damageproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXdamage
+Maintainer: 
+Source: libXdamage-1.1.2.tar.bz2
+Type: ipkg
+Description: libXdamage
+http://xorg.freedesktop.org/
+
+@@
+
+

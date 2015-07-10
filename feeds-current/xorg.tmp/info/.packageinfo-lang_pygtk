@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lang/pygtk/Makefile
+Package: python-gtk
+Submenu: Python
+Version: 2.12.1-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +python-gobject +gtk2 +pycairo +libxml2 +libglade
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: lang
+Category: Languages
+Title: GTK bindings for python
+Maintainer: 
+Source: pygtk-2.12.1.tar.bz2
+Type: ipkg
+Description:   API to GTK and glade library from python.
+http://www.pygtk.org/
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xfce/app/xfce4-mixer/Makefile
+Package: xfce4-mixer
+Submenu: app
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfce4util +libxfcegui4 +xfce4-panel +gst-plugins-base +xfce4-panel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: xfce4-mixer
+Maintainer: 
+Source: xfce4-mixer-4.6.1.tar.bz2
+Type: ipkg
+Description: xfce4-mixer
+
+@@
+
+

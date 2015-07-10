@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXt/Makefile
+Package: libXt
+Submenu: libraries
+Version: 1.0.7-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libSM +libX11 +libICE
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: xproto kbproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXt
+Maintainer: 
+Source: libXt-1.0.7.tar.bz2
+Type: ipkg
+Description: libXt
+http://xorg.freedesktop.org/
+
+@@
+
+

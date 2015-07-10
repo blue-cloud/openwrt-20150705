@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xfce/app/xfce4-appfinder/Makefile
+Package: xfce4-appfinder
+Submenu: app
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfcegui4 +libxfce4menu +gtk2 +libxfconf +libthunar-vfs
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: xfce4-appfinder
+Maintainer: 
+Source: xfce4-appfinder-4.6.1.tar.bz2
+Type: ipkg
+Description: xfce4-appfinder
+
+@@
+
+

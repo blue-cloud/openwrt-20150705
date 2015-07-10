@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/proto/dmxproto/Makefile
+Package: dmxproto
+Submenu: proto
+Version: 2.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-proto
+Category: Xorg
+Title: dmxproto
+Maintainer: 
+Source: dmxproto-2.3.tar.bz2
+Type: ipkg
+Description: dmxproto
+http://xorg.freedesktop.org/
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXfixes/Makefile
+Package: libXfixes
+Submenu: libraries
+Version: 4.0.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: xproto fixesproto xextproto libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXfixes
+Maintainer: 
+Source: libXfixes-4.0.4.tar.bz2
+Type: ipkg
+Description: libXfixes
+http://xorg.freedesktop.org/
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/proto/xf86driproto/Makefile
+Package: xf86driproto
+Submenu: proto
+Version: 2.1.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-proto
+Category: Xorg
+Title: xf86driproto
+Maintainer: 
+Source: xf86driproto-2.1.0.tar.bz2
+Type: ipkg
+Description: xf86driproto
+http://xorg.freedesktop.org/
+
+@@
+
+

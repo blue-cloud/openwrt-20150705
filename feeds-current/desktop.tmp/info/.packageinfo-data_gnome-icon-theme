@@ -1,0 +1,20 @@
+Source-Makefile: feeds/desktop/data/gnome-icon-theme/Makefile
+Package: gnome-icon-theme
+Submenu: data
+Version: 2.28.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hicolor-icon-theme
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: icon-naming-utils intltool/host
+Section: xorg-data
+Category: Xorg
+Title: gnome-icon-theme
+Maintainer: 
+Source: gnome-icon-theme-2.28.0.tar.bz2
+Type: ipkg
+Description: gnome-icon-theme
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/lib/libfakekey/Makefile
+Package: libfakekey
+Submenu: libraries
+Version: svn2111-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libXtst
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: xorg-lib
+Category: Xorg
+Title: libfakekey
+Maintainer: Michael Buesch <mb@bu3sch.de>
+Source: libfakekey-svn2111.tar.bz2
+Type: ipkg
+Description:   X11 keyboard faking library
+http://matchbox-project.org/?p=1
+Michael Buesch <mb@bu3sch.de>
+@@
+
+

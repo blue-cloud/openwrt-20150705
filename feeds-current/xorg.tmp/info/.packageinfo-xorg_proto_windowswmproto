@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/proto/windowswmproto/Makefile
+Package: windowswmproto
+Submenu: proto
+Version: 1.0.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-proto
+Category: Xorg
+Title: windowswmproto
+Maintainer: 
+Source: windowswmproto-1.0.4.tar.bz2
+Type: ipkg
+Description: windowswmproto
+http://xorg.freedesktop.org/
+
+@@
+
+

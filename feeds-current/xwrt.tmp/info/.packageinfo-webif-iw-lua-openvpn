@@ -1,0 +1,19 @@
+Source-Makefile: feeds/xwrt/webif-iw-lua-openvpn/Makefile
+Package: webif-iw-lua-openvpn
+Submenu: webif
+Version: 1.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +webif-iw-lua +ip +openvpn +ntpclient
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: admin
+Category: Administration
+Title: OpenVPN Configuration Script in LUA
+Maintainer: 
+Source: 
+Type: ipkg
+Description: OpenVPN Configuration Script in LUA
+
+@@
+
+

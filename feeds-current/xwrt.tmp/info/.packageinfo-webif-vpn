@@ -1,0 +1,19 @@
+Source-Makefile: feeds/xwrt/webif-vpn/Makefile
+Package: webif-vpn
+Submenu: webif
+Version: 0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +webif
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: admin
+Category: Administration
+Title: X-Wrt VPN Pages
+Maintainer: 
+Source: 
+Type: ipkg
+Description: X-Wrt VPN Pages
+
+@@
+
+

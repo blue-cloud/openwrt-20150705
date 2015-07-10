@@ -1,0 +1,21 @@
+Source-Makefile: feeds/desktop/libs/libstartup-notification/Makefile
+Package: libstartup-notification
+Submenu: libraries
+Version: 0.9-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libX11 +libSM +libICE +libXt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-libs
+Category: Xorg
+Title: libstartup-notification
+Maintainer: 
+Source: startup-notification-0.9.tar.bz2
+Type: ipkg
+Description: libstartup-notification
+http://freedesktop.org/wiki/Software/startup-notification
+
+@@
+
+

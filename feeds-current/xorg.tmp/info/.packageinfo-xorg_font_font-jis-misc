@@ -1,0 +1,20 @@
+Source-Makefile: feeds/xorg/xorg/font/font-jis-misc/Makefile
+Package: font-jis-misc
+Submenu: font
+Version: 1.0.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +xserver +font-util @DISPLAY_SUPPORT
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: xorg-font
+Category: Xorg
+Title: font-jis-misc
+Maintainer: 
+Source: font-jis-misc-1.0.0.tar.bz2
+Type: ipkg
+Description: font-jis-misc
+http://xorg.freedesktop.org/
+
+@@
+
+

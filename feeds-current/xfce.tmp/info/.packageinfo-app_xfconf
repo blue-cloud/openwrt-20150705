@@ -1,0 +1,38 @@
+Source-Makefile: feeds/xfce/app/xfconf/Makefile
+Package: libxfconf
+Submenu: libraries
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfce4util +dbus +libdbus-glib +gtk2 +dbus-launch-x
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: libxfconf
+Maintainer: 
+Source: xfconf-4.6.1.tar.bz2
+Type: ipkg
+Description: libxfconf
+
+@@
+
+Package: xfconf
+Submenu: app
+Version: 4.6.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxfconf
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: xorg-app
+Category: Xorg
+Title: xfconf
+Maintainer: 
+Source: xfconf-4.6.1.tar.bz2
+Type: ipkg
+Description: xfconf
+
+@@
+
+

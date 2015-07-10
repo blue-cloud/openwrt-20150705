@@ -1,0 +1,21 @@
+Source-Makefile: feeds/xorg/xorg/lib/libXfont/Makefile
+Package: libXfont
+Submenu: libraries
+Version: 1.4.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libfontenc +libfreetype
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: xproto fontcacheproto fontsproto xtrans libtool libintl libiconv
+Section: xorg-libraries
+Category: Xorg
+Title: libXfont
+Maintainer: 
+Source: libXfont-1.4.1.tar.bz2
+Type: ipkg
+Description: libXfont
+http://xorg.freedesktop.org/
+
+@@
+
+
