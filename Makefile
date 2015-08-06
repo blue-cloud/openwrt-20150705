@@ -6,6 +6,8 @@
 # See /LICENSE for more information.
 #
 
+# add AAAAAAAAAAA
+
 TOPDIR:=${CURDIR}
 LC_ALL:=C
 LANG:=C
