@@ -6,7 +6,9 @@
 # See /LICENSE for more information.
 #
 
+# add BBBBBBBBBB
 # add AAAAAAAAAAA
+
 
 TOPDIR:=${CURDIR}
 LC_ALL:=C
