@@ -11,6 +11,7 @@
 
 
 TOPDIR:=${CURDIR}
+# add CC
 LC_ALL:=C
 LANG:=C
 export TOPDIR LC_ALL LANG
