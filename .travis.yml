@@ -1,24 +1,28 @@
 
 #Install 
-apt addons
+#apt addons:
 
-before_install
-install
-before_script
-script
+#before_install:
+language: c
+compiler: gcc
 
-after_success 
+install: make get-deps
+    - make V=99
+#before_script:
+#script:
+
+#after_success: 
 #or 
-after_failure
+#after_failure:
 
 #OPTIONAL 
-before_deploy
+#before_deploy:
 
 #OPTIONAL 
-deploy
+#deploy:
 
 #OPTIONAL 
-after_deploy
+after_deploy:
 
 
-after_script
+#after_script:
